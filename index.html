@@ -6,75 +6,114 @@
     <meta name="keywords" conten="resume, job search, Zelenograd"> 
     <meta name="description" content="Сайт-резюме Full stack разработчика.">
     <title>Full-stack developer summary</title>
+    <link rel="stylesheet" href="01_resume.css">
 </head>
 <body>
-    <img src="img/i.jpg" width="150" alt="">
-    <h1>Каркачёв Юрий</h1> 
- 
-    <p>Я, <strong> инженер-системотехник</strong>, окончил <strong> МАИ в 1986 году, </strong> по специальности - <strong>лётные испытания</strong>.</p>
-    <p>В 2020 году от фонда занятости прошёл переподготовку по программе 50+, <strong><em>на курсах по веб-программированию,</em></strong> получив диплом <strong>Full-stack разработчика</strong>.</p>
-    <p>За 3 месяца на курсах мы прошли:<br> основы: HTML, CSS, PHP, JS, MySQL, AJAX,<br> выполнив дипломную работу по созданию сайта.</p>
-    <p>За 3 года найти работу Full-stack разработчика на базе полученных знаний при моём предпенсионном возрасте не удалось, без монетизации это не легко. </p>
-
-    <h5><strong>Список моих социальных сетей:</strong></h5>
-    <a href="https://www.youtube.com/" target="_blank">Youtube</a> | <a href="https://telegram.org/" target="_blank">Telegram</a> | <a href="https://rutube.ru/" target="_blank">Rutube</a> 
-    
-    <h5>Мои хобби</h5>
-    <ul>
-        <li>Пчеловодство</li>
-        <li>Альтернативная история</li>
-    </ul>
-    <h2>Опыт работы</h2>
-   
-    <table>
-         <thead>
-             <tr>
-                 <th>Название</th>
-                 <th>Должность</th> 
-                 <th>Год</th>      
-             </tr>
-         </thead>
-         <tbody>
-            <tr>
-                <td>в\ч 45197</td>
-                <td>техник самолёта-ст. лейтенант</td> 
-                <td>1986-1988</td>
-            </tr>
-             <tr>
-                 <td>ЭМЗ им. "Мясищева"</td>
-                 <td>Конструктор</td> 
-                 <td>1988-1989</td>      
-             </tr>
-             <tr>
-                 <td>МП(ИЧП) "Апиц"</td>
-                 <td>Директор</td> 
-                 <td >1990-2000</td>
-             </tr> 
-             <tr>
-                <td>ПБОЮЛ(ИП)</td>
-                <td>Предприниматель</td> 
-                <td >1999-2020</td>
-            </tr>    
-         </tbody>     
-    </table>
-
-    <h2>Связаться со мной</h2>  
-
-    <form>  
-        <div>
-            <label for="text">Ваше имя: </label>
-            <input type="text" id="text"placeholder="Введите имя">
+    <div class="container">
+        <div class="info-obsh">
+            <img  class="jorj" src="img/i.jpg" width="350"  alt="">
+            <div  id="box1" class="briefly_about_myself">
+                <h1>Каркачёв Юрий Викторович</h1> 
+            
+                <p>Я, <strong> инженер-системотехник</strong>, окончил <strong> МАИ в 1986 году, </strong> по специальности - <strong>лётные испытания</strong>.</p>
+                <p>В 2020 году от фонда занятости прошёл переподготовку по программе 50+, <strong><em>на курсах по веб-программированию,</em></strong> получив диплом <strong>Full-stack разработчика</strong>.</p>
+                <p>За 3 месяца на курсах мы прошли<br> основы: HTML, CSS, PHP, JS, MySQL, AJAX,<br> выполнив дипломную работу по созданию сайта.</p>
+                <p>За последующие 3 года найти работу Full-stack разработчика на базе полученных знаний при моём предпенсионном возрасте не удалось, без монетизации это не легко. </p>
+            </div>
         </div>
-        <div>
-            <label for="email">Ваш Email:</label>
-            <input type="text" id="email" placeholder="Введите email">
-        </div>     
+        <div class="card-1">
+            <h3>Опыт работы</h3>
         
-        <div>
-            <label for="message">Ваше сообщение:</label><br>
-            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
-        </div>     
-        <button type="submit">Отправить !</button> <!--аналогично верхней закоментированной команде-->
-    </form>
+            <table class="card-1">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th> 
+                        <th>Год</th>      
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>в\ч 45197</td>
+                        <td>техник самолёта-ст. лейтенант</td> 
+                        <td>1986-1988</td>
+                    </tr>
+                    <tr>
+                        <td>ЭМЗ им. "Мясищева"</td>
+                        <td>Конструктор</td> 
+                        <td>1988-1989</td>      
+                    </tr>
+                    <tr>
+                        <td>МП(ИЧП) "Апиц"</td>
+                        <td>Директор</td> 
+                        <td >1990-2000</td>
+                    </tr> 
+                    <tr>
+                        <td>ПБОЮЛ(ИП)</td>
+                        <td>Предприниматель</td> 
+                        <td >1999-2020</td>
+                    </tr>    
+                </tbody>     
+            </table>
+        </div>
+        
+        <div class="card-02">
+            <h3>Мои цели в программировании</h3>
+            <!-- <ul>
+               <li>Стать Sinior Full-Stack </li> 
+            </ul> -->
+            <div class="btn">
+                <a href="#">Стать Sinior Full-Stack</a>
+            </div>
+        </div> 
+
+        <div class="card-2">
+            <h3>Мои хобби</h3>
+            <!-- <ul class="btn">
+                <li>Пчеловодство</li>
+                <li>Альтернативная история</li>
+                <li>Программирование</li>
+            </ul> -->
+            <div class="btn">
+                <a href="#">Пчеловодство</a>
+            </div>
+            <div class="btn">
+                <a href="#">Альтернативная история</a>
+            </div>
+            <div class="btn">
+                <a href="#">Программирование</a>
+            </div>
+        </div> 
+
+        <div class="card-3">    
+            <h3><strong>Мои интересы в социальных сетях:</strong></h3>
+            <div class="btn">
+                <a href="https://www.youtube.com/" target="_blank" >Youtube</a> | <a href="https://telegram.org/" target="_blank">Telegram</a> | <a href="https://rutube.ru/" target="_blank">Rutube</a> 
+            </div>
+        </div>
+
+        <div class="info-dop">
+            <h2>Связаться со мной</h2>  
+
+            <form> 
+                <div class="form-row">
+                    <div class="box">
+                        <label for="text">Ваше имя: </label>
+                        <input type="text" id="text"placeholder="Введите имя">
+                    </div>
+                    <div class="box">
+                        <label for="email">Ваш Email:</label>
+                        <input type="text" id="email" placeholder="Введите email">
+                    </div>     
+                </div> 
+                    <div class="box">
+                        <label for="message">Ваше сообщение:</label><br>
+                        <textarea id="message" cols="10" rows="5" placeholder="Введите сообщение..."></textarea>
+                    </div>     
+                    <button type="submit" class="btn">Отправить !</button> <!--аналогично верхней закоментированной команде-->
+            </form>         
+        
+        </div>
+    </div>
 </body>
 </html>

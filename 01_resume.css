@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(201, 197, 188);
+    font-family: 'Forum', cursive;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 15px;
+    /* font-weight: bold; */
+}
+img {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(96, 98, 114);
+    background-color: rgb(238, 146, 7);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+h1, h2, h3 {
+    font-style: normal;
+    margin-bottom: 5px;
+}
+p {
+    padding: 5px;
+}
+ul, li {
+    margin-left: 40%;
+    padding: 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(212, 163, 27) ;
+
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(247, 247, 252);
+    /* text-decoration: solid; */
+}
+
+
+.container {
+      width: 100%;
+      margin-top: 15px;
+    
+ }
+ .jorj {
+     max-width: 26%;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     box-sizing:border-box;
+ }
+ .container .briefly_about_myself {
+     max-width: 750px;
+     margin: 15px;
+     /* margin-bottom: 15px; */
+     box-sizing:border-box;
+ 
+ }
+.briefly_about_myself {
+    font-family: 'Forum', cursive;
+    padding: 5px;
+    margin: 20px;
+}
+.info-obsh {
+    background: rgb(110, 138, 151);
+    width: 750px; 
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    
+}
+.card-1 {background: rgb(134, 145, 118);}
+.card-1, .card-02, .card-2, .card-3, .info-dop {
+    
+    width: 720px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.card-02 {background: rgb(148, 133, 91);}
+
+.card-2 {background: rgb(90, 78, 71);}
+
+.card-3 {background: rgb(167, 172, 159);}
+
+.info-dop {background: rgb(106, 107, 104);}
+
+.info-dop label {
+    color: #fff;
+    
+}
+
+.btn {
+    background: rgb(243, 92, 5);
+    opacity: 0.3;
+    max-width: 200px;
+    padding: 15px 20px;
+    color: rgb(212, 163, 27);
+    box-shadow: 14px 14px 4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    margin: 10px auto;
+    
+}
+ 
+.btn:hover {
+    opacity: 0.8;
+   
+    color: #000;
+}
+
+.card-02 li:hover {
+    font-weight: bold;
+   
+}
+
+.card-1 tr {
+    text-align: left;
+   
+    
+}
+.card-1 tr:hover {
+    background: rgb(255, 255, 255);
+    
+}
+.card-1 td {
+    padding-left: 10px;
+}
+
+.card-2 li {
+    border-bottom: 1px solid black;
+}
+
+.card-2 li:hover {
+    font-weight: bold;
+
+}
+
+.card-02 li:nth-child(1){
+    background: rgb(241, 200, 85);
+    margin-bottom: 10;
+    
+    color: black;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.card-2 li:nth-child(3), .card-2 li:nth-child(2), .card-2 li:nth-child(1) {
+    background: rgb(117, 101, 91);
+margin-bottom: 10px;
+color: black;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+ .info-dop h2 {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    
+ }
+
+ .box label {
+    display: block;
+ }
+
+ .box input, .box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /* background: transparent; */
+    border-bottom: 1p solid black;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    background-color: rgb(201, 197, 188);
+    font-family: inherit;
+ }
+
+  .briefly_about_myself h1 {
+    width: 390px;
+    margin: 10px auto;
+    
+ }
+
+ .briefly_about_myself p {
+    width: 500px;
+    margin: 0px auto;
+    display: block;
+ } 
+ 
+#box1 {
+    margin: auto;
+    display: inline-block;
+}
+
+#box1 img {
+    margin:auto;
+    padding: auto 20px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .box {    
+    margin-right: 20px;
+    width: 48%;
+}   
+
+@media (max-width: 650px) {  
+    .container {
+        width: 650px;
+        margin: 0px 10px 50px 0px;
+    }
+    .info-obsh {
+        width: 650px; 
+        text-align: center;        
+    }
+    .card-1, .card-02, .card-2, .card-3, .info-dop {
+        width: 620px;        
+    }
+    .form-row {
+        margin-bottom: 10px;
+        display: block;
+    }
+    .form-row .box {    
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
