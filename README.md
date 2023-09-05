@@ -1,3 +1,3 @@
 # Моё резюме
 
-[Ссылка для просмотра](https://KarkachevYV.github.io/myresume/)
+[Ссылка для просмотра](https://karkachevyv.github.io/myresume/)
